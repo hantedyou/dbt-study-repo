@@ -1,5 +1,6 @@
 # Secrets
 rsa_key.p8
+profiles.yml
 *.pem
 *.key
 .env
