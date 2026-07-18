@@ -1,5 +1,6 @@
 # Secrets
 rsa_key.p8
+rsa_key.pub
 profiles.yml
 *.pem
 *.key
