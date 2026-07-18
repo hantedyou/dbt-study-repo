@@ -1,0 +1,16 @@
+# Secrets
+rsa_key.p8
+*.pem
+*.key
+.env
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.python-version.local
