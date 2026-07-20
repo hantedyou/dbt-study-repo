@@ -1,0 +1,12 @@
+sources:
+  - name: airbnb  # namespace:source的群組名稱，不一定等於schema名稱
+    schema: raw   # 實際schema
+    tables:
+      - name: listings  # 邏輯名稱，model內使用
+        identifier: raw_listings  # 實際table name
+
+      - name: hosts
+        identifier: raw_hosts
+
+      - name: reviews
+        identifier: raw_reviews
