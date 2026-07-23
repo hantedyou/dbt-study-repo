@@ -3,6 +3,9 @@ rsa_key.p8
 rsa_key.pub
 profiles.yml
 
+# macOS
+.DS_Store
+
 # Claude Code local config (not part of the course project)
 CLAUDE.md
 *.pem
