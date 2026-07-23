@@ -4,6 +4,8 @@ models:
       - minimum_row_counts:
           arguments:
             min_row_count: 1000
+          # config:             -- 已將預設severity定義在 test 檔案中
+            # severity: warn
     columns:
       - name: listing_id
         data_tests:
